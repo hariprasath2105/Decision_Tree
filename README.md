@@ -64,33 +64,46 @@ customer-purchase-predictor/
 | NumPy          | Numerical operations |
 | HTML/CSS       | Frontend styling     |
 
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
 ---
 
-## ⚙️ Installation
+## 🛠 Installation
 
+### Step 1: Clone the Repository
 ```bash
-# 1. Clone the repository
 git clone https://github.com/hariprasath2105/Linear-Regression.git
 cd customer-purchase-predictor
+```
 
-# 2. Install dependencies
+### Step 2: Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# 3. Train the model
+### Step 3: Train the Model
+```bash
 python model.py
-
-# 4. Run the Flask app
+```
+### Step 4: Run the App Start the Flask server:
+```bash
 python app.py
-
+```
 ---
 
 ## 💡 Usage
 
-Once everything is set up, run the Gradio interface:
+Go to http://127.0.0.1:5000/ in your browser.
 
-```bash
-python model.py
-```
+Fill in session details.
+
+Click "Predict" to see if the user will purchase.
 
 ---
 
