@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Purchase Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🛒 Customer Purchase Predictor</h2>
+        <form method="POST">
+            <label>Time on Site (mins):</label>
+            <input type="number" step="0.1" name="time_on_site" required>
+
+            <label>Page Views:</label>
+            <input type="number" name="page_views" required>
+
+            <label>Bounce Rate (0-1):</label>
+            <input type="number" step="0.01" name="bounce_rate" required>
+
+            <label>Device Type:</label>
+            <select name="device">
+                <option>Mobile</option>
+                <option>Desktop</option>
+            </select>
+
+            <label>Referral Source:</label>
+            <select name="referral">
+                <option>Google</option>
+                <option>Facebook</option>
+                <option>Direct</option>
+            </select>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction is not none %}
+            <h3>Prediction: {{ 'Will Purchase ✅' if prediction == 1 else 'Will Not Purchase ❌' }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
