@@ -1,4 +1,4 @@
-# 🛒 Customer Purchase Predictor (Decision Tree)
+# Customer Purchase Predictor (Decision Tree)
 
 A Flask-based web application that predicts whether a website visitor will make a purchase based on their behavior. It uses a **Decision Tree Classifier** trained on features like time spent on the site, number of pages viewed, device type, and referral source.
 
