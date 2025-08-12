@@ -4,13 +4,13 @@ A Flask-based web application that predicts whether a website visitor will make 
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project demonstrates how classification models can be used to predict purchase behavior in e-commerce. Users input session details and receive an instant prediction.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 customer-purchase-predictor/
@@ -29,7 +29,7 @@ customer-purchase-predictor/
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 **File**: `customer_purchase_data.csv`
 
@@ -44,7 +44,7 @@ customer-purchase-predictor/
 
 ---
 
-## 🚀 Features
+## Features
 
 - Predicts customer purchasing behavior from session info  
 - Clean and colorful web interface using HTML + CSS  
@@ -53,7 +53,7 @@ customer-purchase-predictor/
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology     | Use                  |
 |----------------|----------------------|
@@ -74,7 +74,7 @@ customer-purchase-predictor/
 
 ---
 
-## 🛠 Installation
+## Installation
 
 ### Step 1: Clone the Repository
 ```bash
@@ -97,7 +97,7 @@ python app.py
 ```
 ---
 
-## 💡 Usage
+## Usage
 
 Go to http://127.0.0.1:5000/ in your browser.
 
@@ -107,19 +107,12 @@ Click "Predict" to see if the user will purchase.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 📥 Input UI
+### Input UI
 <img width="938" height="648" alt="image" src="https://github.com/user-attachments/assets/8b5754a4-7032-44a2-b726-4d48d329922d" />
 
-### 📈 Output Prediction
+### Output Prediction
 <img width="938" height="648" alt="image" src="https://github.com/user-attachments/assets/530da7de-6f53-4aa8-9914-2db940a590da" />
-
----
-
-## 🙋‍♂️ Author
-
-**Hari Prasath S**  
-[GitHub Profile](https://github.com/hariprasath2105)
 
 ---
